@@ -1,3 +1,22 @@
+# tic-tac-toe
+
+🌸 [HTML-CSS-React] An interactive tic-tac-toe game with ReactJS
+
+📌 https://hiimha.github.io/tic-tac-toe/
+
+## Features
+
+- Play game Tic-tac-toe
+- Define winner or tie result
+- Showing the past move
+
+## Used
+
+- HTML
+- CSS
+- Javascript
+- ReactJs
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
