@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: "Vibur", cursive;
+  margin: 20px;
+  padding: 0;
+  background-image: url("https://drive.google.com/uc?export=view&id=1F2fPNNonEmj1ohhOGIOW2Xzk1xMkdoFh");
+  color: #fff;
+}
+
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+.title {
+  text-align: center;
+  font-size: 70px;
+  color: #dfc6ff;
+  animation: neon 1s ease-in-out infinite alternate;
+}
+
+
+/*-- Animation Keyframes --*/
+
+@keyframes neon {
+  from {
+    text-shadow:
+      0 0 6px rgba(202, 228, 225, 0.92),
+      0 0 30px rgba(202, 228, 225, 0.34),
+      0 0 12px rgba(242, 30, 90, 0.52),
+      0 0 21px rgba(242, 30, 168, 0.92),
+      0 0 34px rgba(242, 30, 79, 0.78),
+      0 0 54px rgba(242, 30, 83, 0.92);
+  }
+
+  to {
+    text-shadow:
+      0 0 6px rgba(202, 228, 225, 0.98),
+      0 0 30px rgba(202, 228, 225, 0.42),
+      0 0 12px rgba(30, 132, 242, 0.58),
+      0 0 22px rgba(30, 132, 242, 0.84),
+      0 0 38px rgba(30, 132, 242, 0.88),
+      0 0 60px rgba(30, 132, 242, 1);
+  }
+}
+
+.appWrap {
+  display: flex;
+  gap: 200px;
+}
+
+.status {
+  text-align: center;
+  font-size: 30px;
+  color: #fccaff;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  color: #fff6a9;
+  font-family: "Sacramento", cursive;
+  margin-bottom: 30px;
+}
+
+.Board-Wrap {
+  background-color: rgba(150, 30, 242, 0.239);
+  border-radius: 15px;
+
+}
+
+.square {
+  background-color: #00000095;
+  border: none;
+  border-radius: 15px;
+  float: left;
+  font-weight: bold;
+  line-height: 34px;
+  margin: 5px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  font-size: 70px;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.app-info {
+  margin-top: -80px;
+}
+
+.app-info ol {
+  border: none;
+  font-size: 20px;
+}
+
+.app-info li button {
+  border-radius: 10px;
+  background-color: #ffffff5f;
+  width: 200px;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  margin: 3px;
+}
+
+.app-info li button:hover,
+.app-info li button:focus {
+  background-color: #ffffffb8;
+  cursor: pointer;
+  color: #ff7801;
+}
