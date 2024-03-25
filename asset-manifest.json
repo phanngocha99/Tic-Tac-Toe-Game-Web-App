@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tic-tac-toe/static/css/main.d9bee7d2.css",
-    "main.js": "/tic-tac-toe/static/js/main.e01709bb.js",
-    "static/js/787.393238a3.chunk.js": "/tic-tac-toe/static/js/787.393238a3.chunk.js",
-    "index.html": "/tic-tac-toe/index.html",
-    "main.d9bee7d2.css.map": "/tic-tac-toe/static/css/main.d9bee7d2.css.map",
-    "main.e01709bb.js.map": "/tic-tac-toe/static/js/main.e01709bb.js.map",
-    "787.393238a3.chunk.js.map": "/tic-tac-toe/static/js/787.393238a3.chunk.js.map"
+    "main.css": "/PRACTICE-reactjs/static/css/main.f0b22e74.css",
+    "main.js": "/PRACTICE-reactjs/static/js/main.d865eddf.js",
+    "static/js/787.393238a3.chunk.js": "/PRACTICE-reactjs/static/js/787.393238a3.chunk.js",
+    "index.html": "/PRACTICE-reactjs/index.html",
+    "main.f0b22e74.css.map": "/PRACTICE-reactjs/static/css/main.f0b22e74.css.map",
+    "main.d865eddf.js.map": "/PRACTICE-reactjs/static/js/main.d865eddf.js.map",
+    "787.393238a3.chunk.js.map": "/PRACTICE-reactjs/static/js/787.393238a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9bee7d2.css",
-    "static/js/main.e01709bb.js"
+    "static/css/main.f0b22e74.css",
+    "static/js/main.d865eddf.js"
   ]
 }
