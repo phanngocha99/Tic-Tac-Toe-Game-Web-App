@@ -2,7 +2,7 @@
 
 🌸 [HTML-CSS-React] An interactive tic-tac-toe game with ReactJS
 
-📌 https://hiimha.github.io/tic-tac-toe/
+📌 https://hiimha.github.io/PRACTICE-reactjs/
 
 ## Features
 
