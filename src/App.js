@@ -1,15 +1,8 @@
-//React provides a special function called useState that you can call from your component to let it “remember” things. 
 import { useState } from 'react';
 
 import './App.css';
 
-
-//Create  creates a component. 
-//In React, a component is a piece of reusable code that represents a part of a user interface. 
-//Components are used to render, manage, and update the UI elements in your application.
 function App() {
-  // creates an array with nine elements                            
-  //and sets each of them to null : useState(Array(9).fill(null))
   const [history, setHistory] = useState([Array(9).fill(null)]); //an array with a single item, which itself is an array of 9 nulls.
   const [currentMove, setCurrentMove] = useState(0); // keep track of which step the user is currently viewing
   const xIsNext = currentMove % 2 === 0;
