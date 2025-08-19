@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Tic-Tac-Toe-Game-Web-App/static/css/main.2f044a87.css",
-    "main.js": "/Tic-Tac-Toe-Game-Web-App/static/js/main.ef1b4397.js",
+    "main.js": "/Tic-Tac-Toe-Game-Web-App/static/js/main.4df8d671.js",
     "index.html": "/Tic-Tac-Toe-Game-Web-App/index.html",
     "main.2f044a87.css.map": "/Tic-Tac-Toe-Game-Web-App/static/css/main.2f044a87.css.map",
-    "main.ef1b4397.js.map": "/Tic-Tac-Toe-Game-Web-App/static/js/main.ef1b4397.js.map"
+    "main.4df8d671.js.map": "/Tic-Tac-Toe-Game-Web-App/static/js/main.4df8d671.js.map"
   },
   "entrypoints": [
     "static/css/main.2f044a87.css",
-    "static/js/main.ef1b4397.js"
+    "static/js/main.4df8d671.js"
   ]
 }
