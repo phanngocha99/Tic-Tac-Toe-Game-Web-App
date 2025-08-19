@@ -4,16 +4,41 @@
 
 ## Features
 
-- Play game Tic-tac-toe
-- Define winner or tie result
-- Showing the past move
+🎮 Classic Tic-Tac-Toe Gameplay
+
+- Play on a 3×3 board with alternating turns between Player X and Player O.
+
+🏆 Win & Draw Detection
+
+- Automatically checks for 3 in a row to declare a winner.
+
+- Declares a draw if the board is filled with no winner.
+
+🔄 Game Over Screen
+
+- Displays the winner’s name or a draw message.
+
+- Includes a Rematch button to restart instantly.
+
+👤 Custom Player Names
+
+- Default names: Player 1 (X) and Player 2 (O).
+
+- Rename players with Edit/Save toggle.
+
+- Current player is visually highlighted.
+
+📜 Move History Tracking
+
+- Every move is recorded with move number, player symbol, and board position.
+
+- Helps players review the sequence of turns.
 
 ## Used
 
-- HTML
 - CSS
 - Javascript
-- ReactJs
+- JSX, ReactJS
 
 # Getting Started with Create React App
 
@@ -44,3 +69,11 @@ You may also see any lint errors in the console.
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Todo
+
+- Move to historical step
+- Create new board on the spot
+- AI combination
+- Multiple rounds
+- Score Boards
